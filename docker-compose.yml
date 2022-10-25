@@ -22,7 +22,7 @@ services:
       - influxdb-volume:/var/lib/influxdb
   prometheus:
     container_name: prometheus
-    image: prom/prometheus:v2.12.0
+    image: prom/prometheus
     networks:
       - monitoring
     volumes:
@@ -66,7 +66,7 @@ services:
     restart: always
   alertmanager-bot:
     container_name: alertmanager-bot
-    image: metalmatze/alertmanager-bot:0.4.0
+    image: metalmatze/alertmanager-bot
     environment:
       ALERTMANAGER_URL: http://alertmanager:9093
       BOLT_PATH: /data/bot.db
