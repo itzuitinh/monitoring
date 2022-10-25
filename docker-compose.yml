@@ -71,8 +71,8 @@ services:
       ALERTMANAGER_URL: http://alertmanager:9093
       BOLT_PATH: /data/bot.db
       STORE: bolt
-      TELEGRAM_ADMIN: '127280566'
-      TELEGRAM_TOKEN: 417551017:AAFTm5_SO135NLXly8hCRM2YoZ8QCemuLJg
+      TELEGRAM_ADMIN: '8888866'
+      TELEGRAM_TOKEN: 417551017:AAFTm5_SO135NJg
       TEMPLATE_PATHS: /templates/default.tmpl
       LOG_LEVEL: debug
       LISTEN_ADDR: 0.0.0.0:8080
